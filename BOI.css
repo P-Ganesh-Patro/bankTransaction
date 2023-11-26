@@ -1,0 +1,235 @@
+*{
+    margin:0px;
+    padding: 0px;
+    /* height:10cm; */
+}
+.conatiner {
+    background-color: rgb(103, 124, 163);
+    /* height:10cm; */
+
+}
+body{
+    /* height:10cm; */
+}
+nav {
+    text-align: center;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+.login_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile_pic {
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin:15px;
+}
+.login_user_pw {
+    margin:5px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    height:30px;
+    text-align: center;
+    color:black;
+    background-color: rgb(0, 38, 255);
+}
+.login_button{
+    color:black;
+    background-color: orangered;
+    height:30px;
+    width:90px;
+    cursor: pointer;
+    margin:10px;
+    border-radius: 20px;
+}
+
+.current_info {
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+}
+.trans_head {
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    text-decoration: underline;
+
+}
+
+.info_of_trans{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.deposit_money{
+    background-color: rgb(36, 124, 36);
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 2px;
+}
+.withdraw_money {
+    background-color: rgb(128, 0, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 2px;
+    margin:15px;
+}
+.app1 {
+    opacity: 0;
+}
+
+.wel_c{
+    color:red;
+    margin:20px;
+}
+.app{
+    /* opacity: 0; */
+}
+.total_depo_with {
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    
+}
+.total_depo{
+    color:green;
+    margin:10px;
+}
+.total_with {
+    color:red;
+    margin:10px;
+}
+.Interest {
+    color:yellowgreen;
+    margin:10px;
+    
+}
+
+.transfer_Section {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 7cm;
+    margin: 5px;
+    padding:20px;
+    border-radius: 10px;
+
+
+}
+.names_of_trans {
+    display: flex;
+    
+}
+.money_trans {
+    background-color: yellowgreen;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top:10px;
+
+}
+.names_of_trans {
+    margin-left: 10px;
+}
+.transfer_head {
+    font-size: 20px;
+    margin:5px;
+}
+.transfer_amount_btn{
+    background: none;
+    color:black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top:30px;
+}
+.amount_of_trans {
+    margin-left: 50px;
+}
+
+.request_sec {
+    background-color: lightgreen;
+    width:7.5cm;
+    margin:5px;
+    height:4cm;
+    border-radius: 15px;
+    padding: 5px;
+}
+.request_head {
+    margin:20px;
+    font-size: 20px;
+}
+.loan_input {
+    background-color: lightgreen;
+    text-align: center;
+    height:25px;
+    width:100px;
+    /* border: none; */
+    border-radius: 10px;
+    margin:20px;
+}
+.loan_button{
+    background-color: green;
+    color:black;
+    font-weight: bolder;
+    width:30px;
+    border-radius: 5px;
+    height:30px;
+    cursor: pointer;
+
+}
+
+.trans_loan_part {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.delete_Account {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: rgb(223, 157, 157);
+    width:8cm;
+    margin:5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.del_user_input {
+    color:black;
+    background-color: rgb(207, 221, 12);
+    text-align: center;
+    width:3cm;
+    height:0.5cm;
+    border-radius: 10px;
+    margin:10px;
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.del_user_pws {
+    color:black;
+    background-color: rgb(207, 221, 12);
+    text-align: center;
+    width:3cm;
+    height:0.5cm;
+    border-radius: 10px;
+    margin:10px;
+}
+.account_Delet_btn {
+    background-color: aqua;
+    width:1cm;
+    margin-left: 180px;
+    height:0.5cm;
+    border-radius: 5px;
+    cursor: pointer;
+}
